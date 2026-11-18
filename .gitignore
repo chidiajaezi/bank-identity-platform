@@ -1,0 +1,31 @@
+# Secrets and local environment — never committed
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.tfvars
+!*.auto.tfvars.example
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+.terraform.lock.hcl
+
+# Node
+node_modules/
+.next/
+dist/
+coverage/
+npm-debug.log*
+
+# Planning workbooks, notes and evidence stay out of the public repo
+planning/
+evidence/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
