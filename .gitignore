@@ -12,7 +12,6 @@
 *.tfstate
 *.tfstate.*
 crash.log
-.terraform.lock.hcl
 
 # Node
 node_modules/
